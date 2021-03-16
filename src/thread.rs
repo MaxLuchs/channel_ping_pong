@@ -1,6 +1,5 @@
 use std::time::Duration;
-use std::io::{Read, stdin};
-use device_query::DeviceQuery;
+use std::io::{stdin};
 
 #[derive(Clone, Copy, Debug)]
 struct Message {
